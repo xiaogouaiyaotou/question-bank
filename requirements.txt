@@ -1,4 +1,4 @@
-Django==1.11.2
+Django==1.11.28
 TimeConvert==1.4.3
 furl==1.0.1
 pymysql==0.8.0
