@@ -168,10 +168,10 @@ WEB_LOGIN_REDIRECT_URI = "{}/auth/login_redirect"
 # send e-mail
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.163.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'xiaogouaiyaotou@163.com'
-EMAIL_HOST_PASSWORD = 'Jixueyuan2'
+EMAIL_HOST = 'Your email's smtp number'             # Your can find this in your email's setting                     
+EMAIL_PORT = 25                                     # This depends on the protocol(SSL or NON-SSL) you used
+EMAIL_HOST_USER = 'Your email address'
+EMAIL_HOST_PASSWORD = 'Your verify code'            #You can find this in your email setting
 # 错误信息邮件设置
 # Email address that error messages come from.
 SERVER_EMAIL = EMAIL_HOST_USER
