@@ -10,9 +10,9 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 3. Build your database <br>
-4. Modify MySQL/Redis config file, create the local_setting.py under the config file under the project root.
+4. Modify MySQL/Redis config file, create the local_setting.py under the config file under the project root.<br>
 
-5. Modify local_settings.py as follow:
+5. Modify local_settings.py as follow:<br>
 ```
 # -*- coding: utf-8 -*-
 
